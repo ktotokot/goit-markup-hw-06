@@ -20,7 +20,7 @@
     />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="nav-header">
           <a class="logo" href="./index.html"
@@ -46,15 +46,99 @@
             </li>
           </ul>
         </address>
+
+        <svg class="header-mob-menu" width="24px" height="24px">
+          <use href="./images/icons.svg#icon-header-menu"></use>
+        </svg>
+
+        <div class="mob-menu">
+          <div class="mob-menu-wrap">
+            <button type="button" class="modal-btn menu-close-btn">
+              <svg class="modal-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-modal-close"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link current" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="tel:+110001111111">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-menu-svg-list">
+            <li class="mob-menu-svg-item">
+              <a
+                class="mob-menu-icon-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="mob-menu-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-svg-item">
+              <a
+                class="mob-menu-icon-link"
+                href="https://twitter.com/"
+                target="_blank"
+              >
+                <svg class="mob-menu-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-svg-item">
+              <a
+                class="mob-menu-icon-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="mob-menu-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-menu-svg-item">
+              <a
+                class="mob-menu-icon-link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="mob-menu-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header> -->
+    </header>
     <main>
-      <!-- <section class="hero-section">
+      <section class="hero-section">
         <div class="container hero-container">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
-      </section> -->
+      </section>
       <!-- Features -->
       <section class="features-section">
         <div class="container features-container">
@@ -118,6 +202,10 @@
           <ul class="team-list">
             <li class="team-card">
               <img
+                srcset="
+                  ./images/team-card-1.jpg     1x,
+                  ./images/team-card-1-2x.jpeg 2x
+                "
                 src="./images/team-card-1.jpg"
                 alt="team-card"
                 width="264"
@@ -179,6 +267,10 @@
             </li>
             <li class="team-card">
               <img
+                srcset="
+                  ./images/team-card-2.jpg     1x,
+                  ./images/team-card-2-2x.jpeg 2x
+                "
                 src="./images/team-card-2.jpg"
                 alt="team-card"
                 width="264"
@@ -240,6 +332,10 @@
             </li>
             <li class="team-card">
               <img
+                srcset="
+                  ./images/team-card-3.jpg     1x,
+                  ./images/team-card-3-2x.jpeg 2x
+                "
                 src="./images/team-card-3.jpg"
                 alt="team-card"
                 width="264"
@@ -301,6 +397,10 @@
             </li>
             <li class="team-card">
               <img
+                srcset="
+                  ./images/team-card-4.jpg     1x,
+                  ./images/team-card-4-2x.jpeg 2x
+                "
                 src="./images/team-card-4.jpg"
                 alt="team-card"
                 width="264"
@@ -371,6 +471,10 @@
             <li class="portfolio-card">
               <div class="overlay-img-wrap">
                 <img
+                  srcset="
+                    ./images/project-card-1.jpeg    1x,
+                    ./images/project-card-1-2x.jpeg 2x
+                  "
                   src="./images/project-card-1.jpeg"
                   alt="Banking App"
                   width="360"
@@ -391,6 +495,10 @@
             <li class="portfolio-card">
               <div class="overlay-img-wrap">
                 <img
+                  srcset="
+                    ./images/project-card-2.jpeg    1x,
+                    ./images/project-card-2-2x.jpeg 2x
+                  "
                   src="./images/project-card-2.jpeg"
                   alt="Cashless Payment"
                   width="360"
@@ -411,6 +519,10 @@
             <li class="portfolio-card">
               <div class="overlay-img-wrap">
                 <img
+                  srcset="
+                    ./images/project-card-3.jpeg    1x,
+                    ./images/project-card-3-2x.jpeg 2x
+                  "
                   src="./images/project-card-3.jpeg"
                   alt="Meditation App"
                   width="360"
@@ -431,6 +543,10 @@
             <li class="portfolio-card">
               <div class="overlay-img-wrap">
                 <img
+                  srcset="
+                    ./images/project-card-4.jpeg    1x,
+                    ./images/project-card-4-2x.jpeg 2x
+                  "
                   src="./images/project-card-4.jpeg"
                   alt="Taxi Service"
                   width="360"
@@ -451,6 +567,10 @@
             <li class="portfolio-card">
               <div class="overlay-img-wrap">
                 <img
+                  srcset="
+                    ./images/project-card-5.jpeg    1x,
+                    ./images/project-card-5-2x.jpeg 2x
+                  "
                   src="./images/project-card-5.jpeg"
                   alt="Screen Illustrations"
                   width="360"
@@ -471,6 +591,10 @@
             <li class="portfolio-card">
               <div class="overlay-img-wrap">
                 <img
+                  srcset="
+                    ./images/project-card-6.jpeg    1x,
+                    ./images/project-card-6-2x.jpeg 2x
+                  "
                   src="./images/project-card-6.jpeg"
                   alt="Online Courses"
                   width="360"
@@ -560,6 +684,7 @@
         </div>
       </div>
     </footer>
+    -->
 
     <div class="backdrop is-">
       <div class="modal">
